@@ -77,7 +77,9 @@ export default {
                 "Content-Type": "application/x-www-form-urlencoded"
                 
                 },
+                
                 data:querystring.stringify(this.form)
+                
             }).then((response) => {
                  this.closeModalHander();
                 this.$message({
@@ -85,6 +87,7 @@ export default {
                     message:response.message
                 
                 })
+                this.visible = false;
                 this.lodaDate();
             })
             

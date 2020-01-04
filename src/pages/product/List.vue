@@ -31,9 +31,9 @@
          width="60%">
          <el-form
           :model="form" label-width="80px">
-          <!-- <el-form-item label="编号">
+          <el-form-item label="编号">
               <el-input v-model="form.id"></el-input>
-          </el-form-item> -->
+          </el-form-item>
           <el-form-item label="产品名称">
               <el-input type="name" v-model="form.name"></el-input>
           </el-form-item>

@@ -85,6 +85,7 @@ export default {
                     message:response.message
                 
                 });
+                this.visible=false;
                  this.loadData();
             })
         
@@ -134,7 +135,7 @@ export default {
         // 文档加载完毕/vue实例创建完毕
         // this为当前Vue实例
         
-            this.loadData();
+            this.loadData()
         
     }
 }
